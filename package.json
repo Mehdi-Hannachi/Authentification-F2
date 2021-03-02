@@ -1,0 +1,19 @@
+{
+  "name": "authentification-f2",
+  "version": "1.0.0",
+  "description": "Authentification with passport ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"  cd server && npm run dev     \"     \" cd client && npm start    \"      "
+  },
+  "author": "Hannachi Mehdi",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
